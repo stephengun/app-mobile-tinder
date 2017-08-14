@@ -26,9 +26,16 @@ top: 200px;
 left: 100px;
 }*/
 
+html {
+ overflow-x: hidden;
+}
+
 .top {
   padding-left: 100px;
   padding-bottom: 10px;
+  position: fixed;
+  left:0;
+  bottom:0;
 }
 
 .body {
@@ -43,7 +50,7 @@ left: 100px;
 }
 
   .ins{
-  padding-left: 150px;
+  padding-left: 50px;
   padding-top: 20px;
 }
 
