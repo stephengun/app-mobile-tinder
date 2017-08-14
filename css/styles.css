@@ -27,11 +27,11 @@ left: 100px;
 }*/
 
 html {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .top {
-  padding-left: 100px;
+  padding-left: 50px;
   padding-bottom: 10px;
   position: fixed;
   left:0;
@@ -47,9 +47,11 @@ html {
   border-radius: 100%;
   border-color:white;
   border-style:solid;
+  position:relative;
+  margin-left:50px;
 }
 
-  .ins{
+.ins{
   padding-left: 50px;
   padding-top: 20px;
 }
